@@ -138,3 +138,198 @@ button{
     padding: 13px 30px;
     
 }
+.resume{
+    position: absolute;
+}
+
+.mode{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+label{
+    /* margin-left: 1400px; */
+    width:100px;
+    height:40px;
+    position: relative;
+    display: block;
+    background: #ebebeb;
+    border-radius: 40px;
+    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+    cursor: pointer;
+} 
+
+label:after {
+    content: "";
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top:10px;
+    left:10px;
+    background: linear-gradient(180deg,#ffcc89,#d8860b);
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+input:checked + label {
+    background: #242424;
+}
+input:checked + label:after {
+    left:90px;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg,#777,#3a3a3a);
+}
+label, label:after {
+    transition: 0.3s
+}
+label:active:after{ 
+    width: 40px; 
+}
+
+.skills{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+}
+
+figure {
+    width:30%;
+    margin:0px;
+    text-align:center;
+    padding:0px;
+    display: inline-block;
+}
+figcaption {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    /* font-style: italic; */
+    /* padding: 2px;  */
+    text-align: center;
+}
+.category{
+    text-align: center;
+    margin: 10px 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a{
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: #ee6b6e;
+}
+.top-container{
+    /* background-color: #E3FDFD; */
+    background-color: black;
+    position: relative;
+    padding-top: 100px;
+}
+.table{
+    width: 24%;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    top: 430px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.pfp{
+    height: 200px;
+    width: 200px;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.skillicon{
+    width: 15%;
+    padding: 10px;
+}
+.guitar{
+    width: 10%;
+    float: left;
+    margin-left: 30px;
+}
+
+.lol{
+    margin-right: 44%;
+    font-family: 'Poppins', sans-serif;
+    color:red;
+}
+.lol1{
+    margin-right: 44%;
+    font-family: 'Poppins', sans-serif;
+    color:red;
+}
+.lol2{
+    margin-right: 44%;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+.lol3{
+    margin-right: 44%;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+.lol4{
+    margin-right: 44%;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+/* .skill-row{
+    width: 50%;
+    margin: auto;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+} */
+.middle-container{
+    padding: 100px 0;
+}
+.contact-message{
+    margin: 40px auto 60px;
+}
+.bottom-container{
+    /* background-color: #66BFBF; */
+    background-color:white;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+.footer-link{
+    margin: 30px 30px auto 30px;
+    line-height: 2;
+}
+.copyright{
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.contact-me{
+    text-align: center;
+} 
+.contact-message{
+    font-size: 80%;
+}
