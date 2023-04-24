@@ -47,7 +47,7 @@ transition: .4s;
     margin-top: 40px;
     margin-left: 700px;
 }
-.btn{
+#btn{
     background-color: red;
     color: white;
     text-decoration: none;
@@ -55,6 +55,7 @@ transition: .4s;
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
+    margin-right: 6%;
 }
 .content{
     position: absolute;
@@ -136,6 +137,7 @@ button{
     border:solid transparent;
     font-weight: bold;
     padding: 13px 30px;
+    cursor: pointer;
     
 }
 .resume{
@@ -234,9 +236,7 @@ a{
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
-a:hover{
-    color: #ee6b6e;
-}
+
 .top-container{
     /* background-color: #E3FDFD; */
     background-color: black;
@@ -317,6 +317,10 @@ a:hover{
     background-color:white;
     padding: 50px 0 20px;
     text-align: center;
+    
+}
+.bottom-container a:hover{
+    color: #ee6b6e;
 }
 .footer-link{
     margin: 30px 30px auto 30px;
@@ -332,4 +336,14 @@ a:hover{
 } 
 .contact-message{
     font-size: 80%;
+}
+.btn1{
+   text-align: center ;
+   background-color: red;
+   color: white;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 10px 25px;
+   border-radius: 30px;
 }
