@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Josefin Sans',sans-serif;
     box-sizing: border-box;
+
 }
 
 .hero{
@@ -26,7 +27,17 @@ nav{
     font-size: 35px;
     letter-spacing:1px;
     cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color:white;
 }
+/* .logo:hover{
+    color:red;
+    font-size: 35px;
+    letter-spacing:1px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: red;
+} */
 nav ul li{
     list-style-type: none;
     display: inline-block;
@@ -39,15 +50,16 @@ nav ul li a{
     text-transform: capitalize;
 }
 nav ul li a:hover{
-    color: brown;
-transition: .4s;
+    color: red;
+    text-decoration: none;
+    transition: .5s;
 }
 .photo img{
     height: 600px;
     margin-top: 40px;
     margin-left: 700px;
 }
-#btn{
+/* #btn{
     background-color: red;
     color: white;
     text-decoration: none;
@@ -56,6 +68,29 @@ transition: .4s;
     padding: 10px 25px;
     border-radius: 30px;
     margin-right: 6%;
+} */
+#btn{
+    background-color:black;
+    color: red;
+    text-decoration: none;
+    border: 2px solid;
+    border-color: red;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-right: 6%;
+}
+#btn:hover{
+    background-color:red;
+    color:white;
+    text-decoration: none;
+    border: 2px solid;
+    border-color: red;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-right: 6%;
+    transition: .5s;
 }
 .content{
     position: absolute;
@@ -83,7 +118,10 @@ h4{
 }
 .lio{
     color: red;
+    text-decoration: underline;
+    text-decoration-color:red;
 }
+
 .new{
     color: white;
     letter-spacing: 2px;
@@ -93,7 +131,7 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color:white ;
+    background-color:#FFF5E3 ;
 
 }
 .about img{
@@ -140,6 +178,17 @@ button{
     cursor: pointer;
     
 }
+button:hover{
+    background-color:#FFDAB8 ;
+    color: RED;
+    text-decoration: none;
+    border:solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
 .resume{
     position: absolute;
 }
@@ -197,6 +246,7 @@ label:active:after{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color:black;
+    background-color: #FFF5E3;
 }
 
 figure {
@@ -215,24 +265,23 @@ figcaption {
 }
 .category{
     text-align: center;
-    margin: 10px 10px;
-    padding-bottom: 50px;
-    padding-top: 30px;
+    padding-bottom: 50px; 
+     padding-top: 30px; 
 }
 
 p{
     font-family: 'Poppins', sans-serif;
 }
 
-hr{
+/* hr{
     border: dotted #EAF6F6 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
-}
+} */
 
 a{
-    color: red;
+    color: black;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
@@ -267,6 +316,7 @@ a{
 .skillicon{
     width: 15%;
     padding: 10px;
+    
 }
 .guitar{
     width: 10%;
@@ -308,19 +358,24 @@ a{
 } */
 .middle-container{
     padding: 100px 0;
+    
 }
 .contact-message{
     margin: 40px auto 60px;
 }
 .bottom-container{
     /* background-color: #66BFBF; */
-    background-color:white;
-    padding: 50px 0 20px;
+    background-color:#FFDAB8;
+    padding: 15px 15px;
     text-align: center;
+    
     
 }
 .bottom-container a:hover{
-    color: #ee6b6e;
+    color: #ff0000;
+    text-decoration: underline;
+    transition: .5s;
+    
 }
 .footer-link{
     margin: 30px 30px auto 30px;
@@ -333,17 +388,46 @@ a{
 }
 .contact-me{
     text-align: center;
+    background-color: #FFF5E3;
+    padding: 25px;
+    padding: 50px;
+
+
 } 
 .contact-message{
     font-size: 80%;
 }
 .btn1{
    text-align: center ;
-   background-color: red;
-   color: white;
+   /* background-color: #FFDAB8; */
+   background-color: #FFF5E3;
+   color: red;
    text-decoration: none;
-   border: 2px solid transparent;
+   border: 2px solid;
+   border-color: red;
    font-weight: bold;
    padding: 10px 25px;
    border-radius: 30px;
+   
+}
+
+.btn1:hover{
+   text-align: center ;
+   background-color:red;
+   color: white;
+   text-decoration: none;
+   border: 2px solid;
+   border-color: red;
+   font-weight: bold;
+   padding: 10px 25px;
+   border-radius: 30px;
+   transition: .5s;
+}
+
+.tool{
+    padding: 7px;
+}
+
+.lang{
+    padding: 7px;
 }
